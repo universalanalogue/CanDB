@@ -387,9 +387,12 @@ if [[ "$id" != c ]]
 then
 can=$(grep "$id" <<< "$cantbl")
 can=$(sed "s|.y|.n|" <<< "$can")
-sed -i "/$id/c\\$can" candb.cdb
+sed -i "/$id,$upc/c\\$can" candb.cdb
 fi
 fi ;;
+
+
+
 
 [5]) while true ; do
 ui
