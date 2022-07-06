@@ -9,9 +9,9 @@ gnucoreutils
 
 ## Installation
 >LINUX
-1) git clone https://github.com/universalanalogue/fulmination.git
+1) git clone https://github.com/universalanalogue/CanDB.git
 
-2) chmod +x -R fulmination ; cd fulmination
+2) chmod +x -R CanDB ; cd CanDB
 
 3) Load ./candb.sh.  It will automatically create a template cdb (CANDATABASE) file to use for the database.  If you register a can with option 3, and it doesn't exist in the UPC register, it will start the UPC registration function.  Reports generated with option 5 can be exported in the reports interface using the e key.
 
